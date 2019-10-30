@@ -1,28 +1,79 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header />
+    <div class="flex-container">
+      <div v-for="pokemon in pokemons" :key="pokemon.id" id="card" @click='showDetails($event)'>
+        <cName :pokeName="pokemon.name" :pokeId="pokemon.id" />
+        <cImage :imgUrl="pokemon.img" />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import cImage from "./components/CardImage";
+import cName from "./components/CardName";
+import Header from "./components/Header";
+import axios from "axios";
 
 export default {
-  name: 'app',
+  name: "app",
+  data() {
+    return {
+      pokemons: []
+    };
+  },
   components: {
-    HelloWorld
+    cImage,
+    cName,
+    Header
+  },
+  async created() {
+    //add async and awaits
+    for (var i = 1; i <= 4; ++i) {
+      await axios.get("https://pokeapi.co/api/v2/pokemon/" + i).then(response => {
+        this.pokemons.push({
+          id: response.data.id,
+          name: response.data.name.toUpperCase(),
+          img: response.data.sprites.front_default
+        });
+      })
+      .catch(e => {
+        console.log(e);
+      });
+    }
+  },
+  methods: {
+    showDetails(e) {
+      console.log(e);
+    }
   }
-}
+};
 </script>
 
-<style>
+<style lang="scss">
+body {
+  background: pink;
+}
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  align-content: flex-end;
+}
+
+#card {
+  border: solid 1px black;
+  width: 30%;
+  margin: 10px;
 }
 </style>
