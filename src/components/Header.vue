@@ -1,6 +1,8 @@
 <template>
     <div class='header'>
+        <span>
         POKEDEX
+        </span>
     </div>
 </template>
 
@@ -12,7 +14,16 @@ export default {
 
 
 <style lang="scss" scoped>
+* {
+    margin:0; 
+    font-size:20px;
+}
+
 .header {
-    background-color: green;
+  margin-bottom: 20px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: green;
+
 }
 </style>

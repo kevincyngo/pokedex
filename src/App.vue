@@ -54,6 +54,7 @@ export default {
 <style lang="scss">
 body {
   background: pink;
+  margin: 0px;
 }
 
 #app {
@@ -69,11 +70,14 @@ body {
   flex-direction: row;
   flex-flow: row wrap;
   align-content: flex-end;
+  justify-content: left;
+  margin: 8px;
 }
 
+
 #card {
-  border: solid 1px black;
-  width: 30%;
-  margin: 10px;
+  // flex: 1 0 31%; /* explanation below */
+  margin: 5px;
+  width: calc(100% * (1/3) - 9px - 1px);
 }
 </style>
