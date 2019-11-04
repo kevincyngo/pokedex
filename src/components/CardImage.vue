@@ -1,6 +1,6 @@
 <template>
     <div id='cardImg'>
-        <img :src=imgUrl>
+        <img :src="imgUrl">
     </div>
 </template>
 
@@ -13,8 +13,13 @@ export default {
 
 
 <style scoped>
+img {
+    width: 50px;
+    height: 50px;
+}
     #cardImg {
         box-sizing: border-box;
-        background: #ffe9c6
+        background: #ffe9c6,
+        
     }
 </style>

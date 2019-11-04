@@ -3,7 +3,7 @@
     <Header />
 
     <div class="flex-container">
-      <div v-for="pokemon in pokemons" :key="pokemon.id" id="card" @click="openPopover(pokemon, pokemon.id)">
+      <div v-for="pokemon in pokemons" :key="pokemon.id" id="card" @click="openPopover(pokemon)">
         <cName :pokeName="pokemon.name" :pokeId="pokemon.id" />
         <cImage :imgUrl="pokemon.img" />
       </div>
@@ -25,10 +25,7 @@ import BasePopoverContent from "@/components/BasePopoverContent";
 import cImage from "./components/CardImage";
 import cName from "./components/CardName";
 import Header from "./components/Header";
-import axios from "axios";
-
-var pokemonAPI = 'https://pokeapi.co/api/v2/pokemon/';
-var pokemonSpeciesAPI = 'https://pokeapi.co/api/v2/pokemon-species/';
+import POKEMON_DATA from './assets/pokedata.json'
 
 export default {
   name: "App",
@@ -58,22 +55,8 @@ export default {
       }
     };
   },
-  async created() {
-    //add async and awaits
-    for (var i = 1; i <= 151; ++i) {
-      await axios
-        .get(pokemonAPI + i)
-        .then(response => {
-          this.pokemons.push({
-            id: response.data.id,
-            name: response.data.name.toUpperCase(),
-            img: response.data.sprites.front_default
-          });
-        })
-        .catch(e => {
-          console.log(e);
-        });
-    }
+  created() {
+    this.pokemons = POKEMON_DATA
   },
   mounted() {
     this.popoverOptions.popoverReference = this.$refs.popoverReference;
@@ -85,20 +68,13 @@ export default {
       console.log("close");
     },
 
-    async openPopover(pokemon, id) {
+    openPopover(pokemon) {
       this.isPopoverVisible = true;
-      await axios
-        .get(pokemonSpeciesAPI + id)
-        .then(response => {
-          this.popoverPokemon = {
+      this.popoverPokemon = {
             name : pokemon.name,
-            flavor_text : response.data.flavor_text_entries[1].flavor_text,
+            flavor_text : pokemon.flavor_text,
             img : pokemon.img
-          }
-        })
-        .catch(e => {
-          console.log(e);
-        });
+      }
     },
     showDetails(e) {
       console.log(e);
@@ -136,5 +112,6 @@ body {
   // flex: 1 0 31%; /* explanation below */
   margin: 40px;
   width: calc(100% * (1 / 3) - 80px - 1px);
+  background: silver;
 }
 </style>
