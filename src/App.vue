@@ -36,18 +36,14 @@ export default {
     cName,
     Header
   },
-
-
-
+  pokemons : [],
   data() {
     return {
       isPopoverVisible: false,
       popoverOptions: {
         popoverReference: null,
-      
         offset: "0,0"
       },
-      pokemons: [],
       popoverPokemon: {
         name: "",
         flavor_text: "",
@@ -73,11 +69,9 @@ export default {
       this.popoverPokemon = {
             name : pokemon.name,
             flavor_text : pokemon.flavor_text,
-            img : pokemon.img
+            img : pokemon.img,
+            genus : pokemon.genus
       }
-    },
-    showDetails(e) {
-      console.log(e);
     }
   }
 };
@@ -109,7 +103,6 @@ body {
 }
 
 #card {
-  // flex: 1 0 31%; /* explanation below */
   margin: 40px;
   width: calc(100% * (1 / 3) - 80px - 1px);
   background: silver;

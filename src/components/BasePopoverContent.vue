@@ -6,7 +6,7 @@
     @keydown.esc="closePopover"
   >
     <div class="vue-tour-popover-content__header">
-      <p>{{ pokemon.name }}</p>
+      <p>{{ pokemon.name }} the {{pokemon.genus}}</p>
       <img :src='pokemon.img'>
     </div >
       <p>{{ pokemon.flavor_text }}</p>
