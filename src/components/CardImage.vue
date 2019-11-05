@@ -14,8 +14,9 @@ export default {
 
 <style scoped>
 img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    padding:5px;
 }
     #cardImg {
         box-sizing: border-box;

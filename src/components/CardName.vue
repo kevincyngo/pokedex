@@ -17,7 +17,7 @@ export default {
 <style scoped>
     #cardName {
         box-sizing: border-box;
-        padding: 10px;
-        background: #ffdad8;
+        padding: 10px;    
+        font-size:15px;
     }
 </style>

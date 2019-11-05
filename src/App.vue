@@ -3,75 +3,51 @@
     <Header />
 
     <div class="flex-container">
-      <div v-for="pokemon in pokemons" :key="pokemon.id" id="card" @click="openPopover(pokemon)">
-        <cName :pokeName="pokemon.name" :pokeId="pokemon.id" />
-        <cImage :imgUrl="pokemon.img" />
+      <div v-for="pokemon in pokemons" :key="pokemon.id" id="card">
+        <b-button :id="getId(pokemon.id)">
+          <cName :pokeName="pokemon.name" :pokeId="pokemon.id" />
+          <cImage :imgUrl="pokemon.img" />
+        </b-button>
+        <b-popover :target="getId(pokemon.id)" triggers="hover">
+          <BasePopoverContent :pokemon="pokemon" @closePopover="isPopoverVisible = false" />
+        </b-popover>
       </div>
-          <BasePopover
-      v-if="isPopoverVisible"
-      :popover-options="popoverOptions"
-      @closePopover="closePopover"
-    >
-        <BasePopoverContent :pokemon="popoverPokemon" @closePopover="isPopoverVisible = false" />
-    </BasePopover>
     </div>
   </div>
-
 </template>
 
 <script>
-import BasePopover from "./components/BasePopover";
 import BasePopoverContent from "@/components/BasePopoverContent";
 import cImage from "./components/CardImage";
 import cName from "./components/CardName";
 import Header from "./components/Header";
-import POKEMON_DATA from './assets/pokedata.json'
+import POKEMON_DATA from "./assets/pokedata.json";
 
 export default {
   name: "App",
   components: {
-    BasePopover,
     BasePopoverContent,
     cImage,
     cName,
     Header
   },
-  pokemons : [],
+  pokemons: [],
   data() {
     return {
-      isPopoverVisible: false,
-      popoverOptions: {
-        popoverReference: null,
-        offset: "0,0"
-      },
       popoverPokemon: {
         name: "",
         flavor_text: "",
-        img: "",
+        img: ""
       }
     };
   },
   created() {
-    this.pokemons = POKEMON_DATA
-  },
-  mounted() {
-    this.popoverOptions.popoverReference = this.$refs.popoverReference;
+    this.pokemons = POKEMON_DATA;
   },
 
   methods: {
-    closePopover() {
-      this.isPopoverVisible = false;
-      console.log("close");
-    },
-
-    openPopover(pokemon) {
-      this.isPopoverVisible = true;
-      this.popoverPokemon = {
-            name : pokemon.name,
-            flavor_text : pokemon.flavor_text,
-            img : pokemon.img,
-            genus : pokemon.genus
-      }
+    getId(id) {
+      return "popover-target-" + id;
     }
   }
 };
@@ -97,7 +73,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
-  align-content: flex-end;
+  // align-content: flex-end;
   justify-content: left;
   margin: 8px;
 }
@@ -105,6 +81,11 @@ body {
 #card {
   margin: 40px;
   width: calc(100% * (1 / 3) - 80px - 1px);
-  background: silver;
+}
+
+button {
+  width: 100%;
+  margin: 0;
+  background: #cfc8bb;
 }
 </style>

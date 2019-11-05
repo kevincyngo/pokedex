@@ -3,42 +3,41 @@
     class="vue-tour-popover-content"
     ref="PopoverContent"
     tabindex="-1"
-    @keydown.esc="closePopover"
   >
     <div class="vue-tour-popover-content__header">
       <p>{{ pokemon.name }} the {{pokemon.genus}}</p>
-      <img :src='pokemon.img'>
     </div >
+    <div class="vue-tour-popover-content__img">
+            <img class="popover-img" :src='pokemon.img'>
+
+      </div>
+      <p class="testing">{{ getType() }}</p>
       <p>{{ pokemon.flavor_text }}</p>
+
   </div>
 </template>
 <script>
 export default {
+  name: "BasePopoverContent",
   data() {
     return {
-      descriptions: "Vue is Awesome!",
-      step: 0
     };
   },
   props: [
     'pokemon'
   ],
-  computed: {
-    currentDescription() {
-      return this.descriptions;
-    },
-
-
-  },
-
-  methods: {
-    closePopover() {
-      this.$emit("closePopover");
-    }
-  },
-
   mounted() {
-    this.$refs.PopoverContent.focus();
+    console.log(this.pokemon);
+  },
+  methods: {
+    getType() {
+      let str = "";
+      for (let type of this.pokemon.type) {
+        console.log(type);
+        str += type + ", ";
+      }
+      return str.substring(0,str.length-2);
+    }
   }
 };
 </script>
@@ -49,14 +48,19 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   width: 400px;
   background: white;
   padding:15px;
+  border: solid 1px black;
+  border-radius:10px;
 
   &__header {
     width: 100%;
     border-bottom: solid 1px #000;
     margin-bottom: 20px;
+    font-size:20px;
+    text-align:left;
   }
 
   &__actions {
@@ -66,20 +70,21 @@ export default {
     margin: 40px 0 20px;
   }
 
-  &__button {
-    background-color: #41B883;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 4px;
+}
 
-    &.hidden {
-      visibility: hidden;
-    }
-  }
+.popover-img{
+  width:200px;
+  height:200px;
+  
+}
+
+.testing {
+  width: 400px;
+  border-top: solid 1px #000;
+  padding-top:5px;
+}
+
+*{
+  align-items: center;
 }
 </style>

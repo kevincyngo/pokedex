@@ -1832,7 +1832,7 @@
     {
       "id": "100",
       "name": "Voltorb",
-      "img": "./assets/0100.png",
+      "img": "./assets/100.png",
       "stats": {
         "speed": "100",
         "special-defense": "55",
@@ -1850,7 +1850,7 @@
     {
       "id": "101",
       "name": "Electrode",
-      "img": "./assets/0101.png",
+      "img": "./assets/101.png",
       "stats": {
         "speed": "150",
         "special-defense": "80",
@@ -1868,7 +1868,7 @@
     {
       "id": "102",
       "name": "Exeggcute",
-      "img": "./assets/0102.png",
+      "img": "./assets/102.png",
       "stats": {
         "speed": "40",
         "special-defense": "45",
@@ -1887,7 +1887,7 @@
     {
       "id": "103",
       "name": "Exeggutor",
-      "img": "./assets/0103.png",
+      "img": "./assets/103.png",
       "stats": {
         "speed": "55",
         "special-defense": "75",
@@ -1906,7 +1906,7 @@
     {
       "id": "104",
       "name": "Cubone",
-      "img": "./assets/0104.png",
+      "img": "./assets/104.png",
       "stats": {
         "speed": "35",
         "special-defense": "50",
@@ -1924,7 +1924,7 @@
     {
       "id": "105",
       "name": "Marowak",
-      "img": "./assets/0105.png",
+      "img": "./assets/105.png",
       "stats": {
         "speed": "45",
         "special-defense": "80",
@@ -1942,7 +1942,7 @@
     {
       "id": "106",
       "name": "Hitmonlee",
-      "img": "./assets/0106.png",
+      "img": "./assets/106.png",
       "stats": {
         "speed": "87",
         "special-defense": "110",
@@ -1960,7 +1960,7 @@
     {
       "id": "107",
       "name": "Hitmonchan",
-      "img": "./assets/0107.png",
+      "img": "./assets/107.png",
       "stats": {
         "speed": "76",
         "special-defense": "110",
@@ -1978,7 +1978,7 @@
     {
       "id": "108",
       "name": "Lickitung",
-      "img": "./assets/0108.png",
+      "img": "./assets/108.png",
       "stats": {
         "speed": "30",
         "special-defense": "75",
@@ -1996,7 +1996,7 @@
     {
       "id": "109",
       "name": "Koffing",
-      "img": "./assets/0109.png",
+      "img": "./assets/109.png",
       "stats": {
         "speed": "35",
         "special-defense": "45",
@@ -2014,7 +2014,7 @@
     {
       "id": "110",
       "name": "Weezing",
-      "img": "./assets/0110.png",
+      "img": "./assets/110.png",
       "stats": {
         "speed": "60",
         "special-defense": "70",
@@ -2032,7 +2032,7 @@
     {
       "id": "111",
       "name": "Rhyhorn",
-      "img": "./assets/0111.png",
+      "img": "./assets/111.png",
       "stats": {
         "speed": "25",
         "special-defense": "30",
@@ -2051,7 +2051,7 @@
     {
       "id": "112",
       "name": "Rhydon",
-      "img": "./assets/0112.png",
+      "img": "./assets/112.png",
       "stats": {
         "speed": "40",
         "special-defense": "45",
@@ -2070,7 +2070,7 @@
     {
       "id": "113",
       "name": "Chansey",
-      "img": "./assets/0113.png",
+      "img": "./assets/113.png",
       "stats": {
         "speed": "50",
         "special-defense": "105",
@@ -2088,7 +2088,7 @@
     {
       "id": "114",
       "name": "Tangela",
-      "img": "./assets/0114.png",
+      "img": "./assets/114.png",
       "stats": {
         "speed": "60",
         "special-defense": "40",
@@ -2106,7 +2106,7 @@
     {
       "id": "115",
       "name": "Kangaskhan",
-      "img": "./assets/0115.png",
+      "img": "./assets/115.png",
       "stats": {
         "speed": "90",
         "special-defense": "80",
@@ -2124,7 +2124,7 @@
     {
       "id": "116",
       "name": "Horsea",
-      "img": "./assets/0116.png",
+      "img": "./assets/116.png",
       "stats": {
         "speed": "60",
         "special-defense": "25",
@@ -2142,7 +2142,7 @@
     {
       "id": "117",
       "name": "Seadra",
-      "img": "./assets/0117.png",
+      "img": "./assets/117.png",
       "stats": {
         "speed": "85",
         "special-defense": "45",
@@ -2160,7 +2160,7 @@
     {
       "id": "118",
       "name": "Goldeen",
-      "img": "./assets/0118.png",
+      "img": "./assets/118.png",
       "stats": {
         "speed": "63",
         "special-defense": "50",
@@ -2178,7 +2178,7 @@
     {
       "id": "119",
       "name": "Seaking",
-      "img": "./assets/0119.png",
+      "img": "./assets/119.png",
       "stats": {
         "speed": "68",
         "special-defense": "80",
@@ -2196,7 +2196,7 @@
     {
       "id": "120",
       "name": "Staryu",
-      "img": "./assets/0120.png",
+      "img": "./assets/120.png",
       "stats": {
         "speed": "85",
         "special-defense": "55",
@@ -2214,7 +2214,7 @@
     {
       "id": "121",
       "name": "Starmie",
-      "img": "./assets/0121.png",
+      "img": "./assets/121.png",
       "stats": {
         "speed": "115",
         "special-defense": "85",
@@ -2233,7 +2233,7 @@
     {
       "id": "122",
       "name": "Mr-mime",
-      "img": "./assets/0122.png",
+      "img": "./assets/122.png",
       "stats": {
         "speed": "90",
         "special-defense": "120",
@@ -2252,7 +2252,7 @@
     {
       "id": "123",
       "name": "Scyther",
-      "img": "./assets/0123.png",
+      "img": "./assets/123.png",
       "stats": {
         "speed": "105",
         "special-defense": "80",
@@ -2271,7 +2271,7 @@
     {
       "id": "124",
       "name": "Jynx",
-      "img": "./assets/0124.png",
+      "img": "./assets/124.png",
       "stats": {
         "speed": "95",
         "special-defense": "95",
@@ -2290,7 +2290,7 @@
     {
       "id": "125",
       "name": "Electabuzz",
-      "img": "./assets/0125.png",
+      "img": "./assets/125.png",
       "stats": {
         "speed": "105",
         "special-defense": "85",
@@ -2308,7 +2308,7 @@
     {
       "id": "126",
       "name": "Magmar",
-      "img": "./assets/0126.png",
+      "img": "./assets/126.png",
       "stats": {
         "speed": "93",
         "special-defense": "85",
@@ -2326,7 +2326,7 @@
     {
       "id": "127",
       "name": "Pinsir",
-      "img": "./assets/0127.png",
+      "img": "./assets/127.png",
       "stats": {
         "speed": "85",
         "special-defense": "70",
@@ -2344,7 +2344,7 @@
     {
       "id": "128",
       "name": "Tauros",
-      "img": "./assets/0128.png",
+      "img": "./assets/128.png",
       "stats": {
         "speed": "110",
         "special-defense": "70",
@@ -2362,7 +2362,7 @@
     {
       "id": "129",
       "name": "Magikarp",
-      "img": "./assets/0129.png",
+      "img": "./assets/129.png",
       "stats": {
         "speed": "80",
         "special-defense": "20",
@@ -2380,7 +2380,7 @@
     {
       "id": "130",
       "name": "Gyarados",
-      "img": "./assets/0130.png",
+      "img": "./assets/130.png",
       "stats": {
         "speed": "81",
         "special-defense": "100",
@@ -2399,7 +2399,7 @@
     {
       "id": "131",
       "name": "Lapras",
-      "img": "./assets/0131.png",
+      "img": "./assets/131.png",
       "stats": {
         "speed": "60",
         "special-defense": "95",
@@ -2418,7 +2418,7 @@
     {
       "id": "132",
       "name": "Ditto",
-      "img": "./assets/0132.png",
+      "img": "./assets/132.png",
       "stats": {
         "speed": "48",
         "special-defense": "48",
@@ -2436,7 +2436,7 @@
     {
       "id": "133",
       "name": "Eevee",
-      "img": "./assets/0133.png",
+      "img": "./assets/133.png",
       "stats": {
         "speed": "55",
         "special-defense": "65",
@@ -2454,7 +2454,7 @@
     {
       "id": "134",
       "name": "Vaporeon",
-      "img": "./assets/0134.png",
+      "img": "./assets/134.png",
       "stats": {
         "speed": "65",
         "special-defense": "95",
@@ -2472,7 +2472,7 @@
     {
       "id": "135",
       "name": "Jolteon",
-      "img": "./assets/0135.png",
+      "img": "./assets/135.png",
       "stats": {
         "speed": "130",
         "special-defense": "95",
@@ -2490,7 +2490,7 @@
     {
       "id": "136",
       "name": "Flareon",
-      "img": "./assets/0136.png",
+      "img": "./assets/136.png",
       "stats": {
         "speed": "65",
         "special-defense": "110",
@@ -2508,7 +2508,7 @@
     {
       "id": "137",
       "name": "Porygon",
-      "img": "./assets/0137.png",
+      "img": "./assets/137.png",
       "stats": {
         "speed": "40",
         "special-defense": "75",
@@ -2526,7 +2526,7 @@
     {
       "id": "138",
       "name": "Omanyte",
-      "img": "./assets/0138.png",
+      "img": "./assets/138.png",
       "stats": {
         "speed": "35",
         "special-defense": "55",
@@ -2545,7 +2545,7 @@
     {
       "id": "139",
       "name": "Omastar",
-      "img": "./assets/0139.png",
+      "img": "./assets/139.png",
       "stats": {
         "speed": "55",
         "special-defense": "70",
@@ -2564,7 +2564,7 @@
     {
       "id": "140",
       "name": "Kabuto",
-      "img": "./assets/0140.png",
+      "img": "./assets/140.png",
       "stats": {
         "speed": "55",
         "special-defense": "45",
@@ -2583,7 +2583,7 @@
     {
       "id": "141",
       "name": "Kabutops",
-      "img": "./assets/0141.png",
+      "img": "./assets/141.png",
       "stats": {
         "speed": "80",
         "special-defense": "70",
@@ -2602,7 +2602,7 @@
     {
       "id": "142",
       "name": "Aerodactyl",
-      "img": "./assets/0142.png",
+      "img": "./assets/142.png",
       "stats": {
         "speed": "130",
         "special-defense": "75",
@@ -2621,7 +2621,7 @@
     {
       "id": "143",
       "name": "Snorlax",
-      "img": "./assets/0143.png",
+      "img": "./assets/143.png",
       "stats": {
         "speed": "30",
         "special-defense": "110",
@@ -2639,7 +2639,7 @@
     {
       "id": "144",
       "name": "Articuno",
-      "img": "./assets/0144.png",
+      "img": "./assets/144.png",
       "stats": {
         "speed": "85",
         "special-defense": "125",
@@ -2658,7 +2658,7 @@
     {
       "id": "145",
       "name": "Zapdos",
-      "img": "./assets/0145.png",
+      "img": "./assets/145.png",
       "stats": {
         "speed": "100",
         "special-defense": "90",
@@ -2677,7 +2677,7 @@
     {
       "id": "146",
       "name": "Moltres",
-      "img": "./assets/0146.png",
+      "img": "./assets/146.png",
       "stats": {
         "speed": "90",
         "special-defense": "85",
@@ -2696,7 +2696,7 @@
     {
       "id": "147",
       "name": "Dratini",
-      "img": "./assets/0147.png",
+      "img": "./assets/147.png",
       "stats": {
         "speed": "50",
         "special-defense": "50",
@@ -2714,7 +2714,7 @@
     {
       "id": "148",
       "name": "Dragonair",
-      "img": "./assets/0148.png",
+      "img": "./assets/148.png",
       "stats": {
         "speed": "70",
         "special-defense": "70",
@@ -2732,7 +2732,7 @@
     {
       "id": "149",
       "name": "Dragonite",
-      "img": "./assets/0149.png",
+      "img": "./assets/149.png",
       "stats": {
         "speed": "80",
         "special-defense": "100",
@@ -2751,7 +2751,7 @@
     {
       "id": "150",
       "name": "Mewtwo",
-      "img": "./assets/0150.png",
+      "img": "./assets/150.png",
       "stats": {
         "speed": "130",
         "special-defense": "90",
@@ -2769,7 +2769,7 @@
     {
       "id": "151",
       "name": "Mew",
-      "img": "./assets/0151.png",
+      "img": "./assets/151.png",
       "stats": {
         "speed": "100",
         "special-defense": "100",

@@ -1,7 +1,7 @@
 <template>
     <div class='header'>
         <span>
-        POKEDEX
+        Original 151 Pokédex
         </span>
     </div>
 </template>
@@ -16,14 +16,15 @@ export default {
 <style lang="scss" scoped>
 * {
     margin:0; 
-    font-size:20px;
+    font-size:30px;
 }
 
 .header {
   margin-bottom: 20px;
-  padding: 0px;
+  padding: 20px;
   overflow: hidden;
   background-color: green;
+  
 
 }
 </style>
