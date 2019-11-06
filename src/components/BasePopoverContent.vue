@@ -5,7 +5,7 @@
     tabindex="-1"
   >
     <div class="vue-tour-popover-content__header">
-      <p>{{ pokemon.name }} the {{pokemon.genus}}</p>
+      <p>#{{pokemon.id}} {{ pokemon.name }} the {{pokemon.genus}}</p>
     </div >
     <div class="vue-tour-popover-content__img">
             <img class="popover-img" :src='pokemon.img'>
@@ -13,27 +13,58 @@
       </div>
       <p class="testing">{{ getType() }}</p>
       <p>{{ pokemon.flavor_text }}</p>
-
+      HP: {{hp}}
+      Defense: {{defense}}
+      Speed: {{speed}}
+      Attack: {{attack}}
+      Special Defense: {{sp_defense}}
+      Special Attack: {{sp_attack}}
   </div>
 </template>
 <script>
+var SPEED = "speed";
+var HP = "hp";
+var ATTACK = "attack";
+var DEFENSE = "defense";
+var SP_ATTACK = "special-attack";
+var SP_DEFENSE = "special-defense";
 export default {
   name: "BasePopoverContent",
   data() {
     return {
+      speed: "",
+      hp: "",
+      defense: "",
+      attack: "",
+      sp_attack: "",
+      sp_defense: ""
     };
   },
   props: [
     'pokemon'
   ],
   mounted() {
-    console.log(this.pokemon);
+    var stats = this.pokemon.stats;
+    for (var stat in stats) {
+      if (stat == SPEED) {
+        this.speed = stats[stat];
+      } else if (stat == ATTACK) {
+        this.attack = stats[stat];
+      } else if (stat == DEFENSE) {
+        this.defense = stats[stat];
+      } else if (stat == HP) {
+        this.hp = stats[stat];
+      } else if (stat == SP_ATTACK) {
+        this.sp_attack = stats[stat];
+      } else if (stat == SP_DEFENSE) {
+        this.sp_defense = stats[stat];
+      } 
+      }
   },
   methods: {
     getType() {
       let str = "";
       for (let type of this.pokemon.type) {
-        console.log(type);
         str += type + ", ";
       }
       return str.substring(0,str.length-2);
