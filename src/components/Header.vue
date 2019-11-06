@@ -23,8 +23,7 @@ export default {
   margin-bottom: 20px;
   padding: 20px;
   overflow: hidden;
-  background-color: green;
-  
-
+  background: rgb(247,37,37);
+  background: linear-gradient(90deg, rgba(247,37,37,1) 1%, rgba(255,254,24,1) 100%);
 }
 </style>

@@ -1,24 +1,26 @@
 <template>
-  <div
-    class="vue-tour-popover-content"
-    ref="PopoverContent"
-    tabindex="-1"
-  >
+  <div class="vue-tour-popover-content" ref="PopoverContent" tabindex="-1">
     <div class="vue-tour-popover-content__header">
-      <p>#{{pokemon.id}} {{ pokemon.name }} the {{pokemon.genus}}</p>
-    </div >
-    <div class="vue-tour-popover-content__img">
-            <img class="popover-img" :src='pokemon.img'>
-
-      </div>
-      <p class="testing">{{ getType() }}</p>
+      <p>
+        <span v-for="type in pokemon.type" :key="type">
+          <img :src="getTypeImg(type)">  
+        </span> {{ pokemon.name }} the {{pokemon.genus}}
+      </p>
+    </div>
+    <div class="img">
+      <img class="popover-img" :src="pokemon.img" />
+    </div>
+    <div class="flavor-text">
       <p>{{ pokemon.flavor_text }}</p>
-      HP: {{hp}}
-      Defense: {{defense}}
-      Speed: {{speed}}
-      Attack: {{attack}}
-      Special Defense: {{sp_defense}}
-      Special Attack: {{sp_attack}}
+    </div>
+    <div class="pokemon-stats">
+      <span class="stat" id="hp">HP: {{hp}}</span>
+      <span class="stat" id="def">Defense: {{defense}}</span>
+      <span class="stat" id="spd">Speed: {{speed}}</span>
+      <span class="stat" id="atk">Attack: {{attack}}</span>
+      <span class="stat" id="sp-def">Sp Def: {{sp_defense}}</span>
+      <span class="stat" id="sp-atk">Sp Atk: {{sp_attack}}</span>
+    </div>
   </div>
 </template>
 <script>
@@ -28,6 +30,7 @@ var ATTACK = "attack";
 var DEFENSE = "defense";
 var SP_ATTACK = "special-attack";
 var SP_DEFENSE = "special-defense";
+
 export default {
   name: "BasePopoverContent",
   data() {
@@ -40,9 +43,7 @@ export default {
       sp_defense: ""
     };
   },
-  props: [
-    'pokemon'
-  ],
+  props: ["pokemon"],
   mounted() {
     var stats = this.pokemon.stats;
     for (var stat in stats) {
@@ -58,8 +59,8 @@ export default {
         this.sp_attack = stats[stat];
       } else if (stat == SP_DEFENSE) {
         this.sp_defense = stats[stat];
-      } 
       }
+    }
   },
   methods: {
     getType() {
@@ -67,7 +68,10 @@ export default {
       for (let type of this.pokemon.type) {
         str += type + ", ";
       }
-      return str.substring(0,str.length-2);
+      return str.substring(0, str.length - 2);
+    },
+    getTypeImg(type) {
+      console.log(type);
     }
   }
 };
@@ -81,41 +85,46 @@ export default {
   align-items: center;
   text-align: center;
   width: 400px;
-  background: white;
-  padding:15px;
-  border: solid 1px black;
-  border-radius:10px;
+  background-color: azure;
+  padding: 15px;
+  border-radius: 10px;
 
   &__header {
     width: 100%;
-    border-bottom: solid 1px #000;
-    margin-bottom: 20px;
-    font-size:20px;
-    text-align:left;
+    font-size: 20px;
+    text-align: left;
   }
-
-  &__actions {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin: 40px 0 20px;
-  }
-
 }
 
-.popover-img{
-  width:200px;
-  height:200px;
-  
+.popover-img {
+  width: 100%;
+  height: 100%;
+  padding:10px;
 }
 
-.testing {
-  width: 400px;
-  border-top: solid 1px #000;
-  padding-top:5px;
+.pokemon-stats {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap:20px 20px;
 }
 
-*{
+img {
+  border: solid 1px black;
+  background-color: grey;
+  border-radius: 10px;
+}
+
+.flavor-text {
+  padding-top: 5px;
+}
+
+.stat {
+  padding: 5px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,209,127,1) 0%, rgba(113,252,252,1) 100%);
+  border-radius: 10px;
+}
+* {
   align-items: center;
 }
 </style>

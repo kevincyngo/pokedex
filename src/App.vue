@@ -9,7 +9,7 @@
           <cImage :imgUrl="pokemon.img" />
         </b-button>
         <b-popover :target="getId(pokemon.id)" triggers="hover">
-          <BasePopoverContent :pokemon="pokemon" @closePopover="isPopoverVisible = false" />
+          <BasePopoverContent :pokemon="pokemon" />
         </b-popover>
       </div>
     </div>
@@ -53,16 +53,17 @@ export default {
 };
 </script>
 
-
-
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
 body {
-  background: pink;
+  background: rgb(254,150,144);
+  background: linear-gradient(90deg, rgba(254,150,144,1) 0%, rgba(251,255,134,1) 100%);
   margin: 0px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -81,6 +82,7 @@ body {
 #card {
   margin: 40px;
   width: calc(100% * (1 / 3) - 80px - 1px);
+  background-color:grey;
 }
 
 button {

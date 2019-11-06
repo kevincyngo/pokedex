@@ -18,9 +18,4 @@ img {
     height: 60px;
     padding:5px;
 }
-    #cardImg {
-        box-sizing: border-box;
-        background: #ffe9c6,
-        
-    }
 </style>
