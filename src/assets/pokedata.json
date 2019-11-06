@@ -2,7 +2,7 @@
     {
       "id": "001",
       "name": "Bulbasaur",
-      "img": "./assets/001.png",
+      "img": "./assets/pokemon/001.png",
       "stats": {
         "speed": "45",
         "special-defense": "65",
@@ -21,7 +21,7 @@
     {
       "id": "002",
       "name": "Ivysaur",
-      "img": "./assets/002.png",
+      "img": "./assets/pokemon/002.png",
       "stats": {
         "speed": "60",
         "special-defense": "80",
@@ -40,7 +40,7 @@
     {
       "id": "003",
       "name": "Venusaur",
-      "img": "./assets/003.png",
+      "img": "./assets/pokemon/003.png",
       "stats": {
         "speed": "80",
         "special-defense": "100",
@@ -59,7 +59,7 @@
     {
       "id": "004",
       "name": "Charmander",
-      "img": "./assets/004.png",
+      "img": "./assets/pokemon/004.png",
       "stats": {
         "speed": "65",
         "special-defense": "50",
@@ -77,7 +77,7 @@
     {
       "id": "005",
       "name": "Charmeleon",
-      "img": "./assets/005.png",
+      "img": "./assets/pokemon/005.png",
       "stats": {
         "speed": "80",
         "special-defense": "65",
@@ -95,7 +95,7 @@
     {
       "id": "006",
       "name": "Charizard",
-      "img": "./assets/006.png",
+      "img": "./assets/pokemon/006.png",
       "stats": {
         "speed": "100",
         "special-defense": "85",
@@ -114,7 +114,7 @@
     {
       "id": "007",
       "name": "Squirtle",
-      "img": "./assets/007.png",
+      "img": "./assets/pokemon/007.png",
       "stats": {
         "speed": "43",
         "special-defense": "64",
@@ -132,7 +132,7 @@
     {
       "id": "008",
       "name": "Wartortle",
-      "img": "./assets/008.png",
+      "img": "./assets/pokemon/008.png",
       "stats": {
         "speed": "58",
         "special-defense": "80",
@@ -150,7 +150,7 @@
     {
       "id": "009",
       "name": "Blastoise",
-      "img": "./assets/009.png",
+      "img": "./assets/pokemon/009.png",
       "stats": {
         "speed": "78",
         "special-defense": "105",
@@ -168,7 +168,7 @@
     {
       "id": "010",
       "name": "Caterpie",
-      "img": "./assets/010.png",
+      "img": "./assets/pokemon/010.png",
       "stats": {
         "speed": "45",
         "special-defense": "20",
@@ -186,7 +186,7 @@
     {
       "id": "011",
       "name": "Metapod",
-      "img": "./assets/011.png",
+      "img": "./assets/pokemon/011.png",
       "stats": {
         "speed": "30",
         "special-defense": "25",
@@ -204,7 +204,7 @@
     {
       "id": "012",
       "name": "Butterfree",
-      "img": "./assets/012.png",
+      "img": "./assets/pokemon/012.png",
       "stats": {
         "speed": "70",
         "special-defense": "80",
@@ -223,7 +223,7 @@
     {
       "id": "013",
       "name": "Weedle",
-      "img": "./assets/013.png",
+      "img": "./assets/pokemon/013.png",
       "stats": {
         "speed": "50",
         "special-defense": "20",
@@ -242,7 +242,7 @@
     {
       "id": "014",
       "name": "Kakuna",
-      "img": "./assets/014.png",
+      "img": "./assets/pokemon/014.png",
       "stats": {
         "speed": "35",
         "special-defense": "25",
@@ -261,7 +261,7 @@
     {
       "id": "015",
       "name": "Beedrill",
-      "img": "./assets/015.png",
+      "img": "./assets/pokemon/015.png",
       "stats": {
         "speed": "75",
         "special-defense": "80",
@@ -280,7 +280,7 @@
     {
       "id": "016",
       "name": "Pidgey",
-      "img": "./assets/016.png",
+      "img": "./assets/pokemon/016.png",
       "stats": {
         "speed": "56",
         "special-defense": "35",
@@ -299,7 +299,7 @@
     {
       "id": "017",
       "name": "Pidgeotto",
-      "img": "./assets/017.png",
+      "img": "./assets/pokemon/017.png",
       "stats": {
         "speed": "71",
         "special-defense": "50",
@@ -318,7 +318,7 @@
     {
       "id": "018",
       "name": "Pidgeot",
-      "img": "./assets/018.png",
+      "img": "./assets/pokemon/018.png",
       "stats": {
         "speed": "101",
         "special-defense": "70",
@@ -337,7 +337,7 @@
     {
       "id": "019",
       "name": "Rattata",
-      "img": "./assets/019.png",
+      "img": "./assets/pokemon/019.png",
       "stats": {
         "speed": "72",
         "special-defense": "35",
@@ -355,7 +355,7 @@
     {
       "id": "020",
       "name": "Raticate",
-      "img": "./assets/020.png",
+      "img": "./assets/pokemon/020.png",
       "stats": {
         "speed": "97",
         "special-defense": "70",
@@ -373,7 +373,7 @@
     {
       "id": "021",
       "name": "Spearow",
-      "img": "./assets/021.png",
+      "img": "./assets/pokemon/021.png",
       "stats": {
         "speed": "70",
         "special-defense": "31",
@@ -392,7 +392,7 @@
     {
       "id": "022",
       "name": "Fearow",
-      "img": "./assets/022.png",
+      "img": "./assets/pokemon/022.png",
       "stats": {
         "speed": "100",
         "special-defense": "61",
@@ -411,7 +411,7 @@
     {
       "id": "023",
       "name": "Ekans",
-      "img": "./assets/023.png",
+      "img": "./assets/pokemon/023.png",
       "stats": {
         "speed": "55",
         "special-defense": "54",
@@ -429,7 +429,7 @@
     {
       "id": "024",
       "name": "Arbok",
-      "img": "./assets/024.png",
+      "img": "./assets/pokemon/024.png",
       "stats": {
         "speed": "80",
         "special-defense": "79",
@@ -447,7 +447,7 @@
     {
       "id": "025",
       "name": "Pikachu",
-      "img": "./assets/025.png",
+      "img": "./assets/pokemon/025.png",
       "stats": {
         "speed": "90",
         "special-defense": "50",
@@ -465,7 +465,7 @@
     {
       "id": "026",
       "name": "Raichu",
-      "img": "./assets/026.png",
+      "img": "./assets/pokemon/026.png",
       "stats": {
         "speed": "110",
         "special-defense": "80",
@@ -483,7 +483,7 @@
     {
       "id": "027",
       "name": "Sandshrew",
-      "img": "./assets/027.png",
+      "img": "./assets/pokemon/027.png",
       "stats": {
         "speed": "40",
         "special-defense": "30",
@@ -501,7 +501,7 @@
     {
       "id": "028",
       "name": "Sandslash",
-      "img": "./assets/028.png",
+      "img": "./assets/pokemon/028.png",
       "stats": {
         "speed": "65",
         "special-defense": "55",
@@ -519,7 +519,7 @@
     {
       "id": "029",
       "name": "Nidoran-f",
-      "img": "./assets/029.png",
+      "img": "./assets/pokemon/029.png",
       "stats": {
         "speed": "41",
         "special-defense": "40",
@@ -537,7 +537,7 @@
     {
       "id": "030",
       "name": "Nidorina",
-      "img": "./assets/030.png",
+      "img": "./assets/pokemon/030.png",
       "stats": {
         "speed": "56",
         "special-defense": "55",
@@ -555,7 +555,7 @@
     {
       "id": "031",
       "name": "Nidoqueen",
-      "img": "./assets/031.png",
+      "img": "./assets/pokemon/031.png",
       "stats": {
         "speed": "76",
         "special-defense": "85",
@@ -574,7 +574,7 @@
     {
       "id": "032",
       "name": "Nidoran-m",
-      "img": "./assets/032.png",
+      "img": "./assets/pokemon/032.png",
       "stats": {
         "speed": "50",
         "special-defense": "40",
@@ -592,7 +592,7 @@
     {
       "id": "033",
       "name": "Nidorino",
-      "img": "./assets/033.png",
+      "img": "./assets/pokemon/033.png",
       "stats": {
         "speed": "65",
         "special-defense": "55",
@@ -610,7 +610,7 @@
     {
       "id": "034",
       "name": "Nidoking",
-      "img": "./assets/034.png",
+      "img": "./assets/pokemon/034.png",
       "stats": {
         "speed": "85",
         "special-defense": "75",
@@ -629,7 +629,7 @@
     {
       "id": "035",
       "name": "Clefairy",
-      "img": "./assets/035.png",
+      "img": "./assets/pokemon/035.png",
       "stats": {
         "speed": "35",
         "special-defense": "65",
@@ -647,7 +647,7 @@
     {
       "id": "036",
       "name": "Clefable",
-      "img": "./assets/036.png",
+      "img": "./assets/pokemon/036.png",
       "stats": {
         "speed": "60",
         "special-defense": "90",
@@ -665,7 +665,7 @@
     {
       "id": "037",
       "name": "Vulpix",
-      "img": "./assets/037.png",
+      "img": "./assets/pokemon/037.png",
       "stats": {
         "speed": "65",
         "special-defense": "65",
@@ -683,7 +683,7 @@
     {
       "id": "038",
       "name": "Ninetales",
-      "img": "./assets/038.png",
+      "img": "./assets/pokemon/038.png",
       "stats": {
         "speed": "100",
         "special-defense": "100",
@@ -701,7 +701,7 @@
     {
       "id": "039",
       "name": "Jigglypuff",
-      "img": "./assets/039.png",
+      "img": "./assets/pokemon/039.png",
       "stats": {
         "speed": "20",
         "special-defense": "25",
@@ -720,7 +720,7 @@
     {
       "id": "040",
       "name": "Wigglytuff",
-      "img": "./assets/040.png",
+      "img": "./assets/pokemon/040.png",
       "stats": {
         "speed": "45",
         "special-defense": "50",
@@ -739,7 +739,7 @@
     {
       "id": "041",
       "name": "Zubat",
-      "img": "./assets/041.png",
+      "img": "./assets/pokemon/041.png",
       "stats": {
         "speed": "55",
         "special-defense": "40",
@@ -758,7 +758,7 @@
     {
       "id": "042",
       "name": "Golbat",
-      "img": "./assets/042.png",
+      "img": "./assets/pokemon/042.png",
       "stats": {
         "speed": "90",
         "special-defense": "75",
@@ -777,7 +777,7 @@
     {
       "id": "043",
       "name": "Oddish",
-      "img": "./assets/043.png",
+      "img": "./assets/pokemon/043.png",
       "stats": {
         "speed": "30",
         "special-defense": "65",
@@ -796,7 +796,7 @@
     {
       "id": "044",
       "name": "Gloom",
-      "img": "./assets/044.png",
+      "img": "./assets/pokemon/044.png",
       "stats": {
         "speed": "40",
         "special-defense": "75",
@@ -815,7 +815,7 @@
     {
       "id": "045",
       "name": "Vileplume",
-      "img": "./assets/045.png",
+      "img": "./assets/pokemon/045.png",
       "stats": {
         "speed": "50",
         "special-defense": "90",
@@ -834,7 +834,7 @@
     {
       "id": "046",
       "name": "Paras",
-      "img": "./assets/046.png",
+      "img": "./assets/pokemon/046.png",
       "stats": {
         "speed": "25",
         "special-defense": "55",
@@ -853,7 +853,7 @@
     {
       "id": "047",
       "name": "Parasect",
-      "img": "./assets/047.png",
+      "img": "./assets/pokemon/047.png",
       "stats": {
         "speed": "30",
         "special-defense": "80",
@@ -872,7 +872,7 @@
     {
       "id": "048",
       "name": "Venonat",
-      "img": "./assets/048.png",
+      "img": "./assets/pokemon/048.png",
       "stats": {
         "speed": "45",
         "special-defense": "55",
@@ -891,7 +891,7 @@
     {
       "id": "049",
       "name": "Venomoth",
-      "img": "./assets/049.png",
+      "img": "./assets/pokemon/049.png",
       "stats": {
         "speed": "90",
         "special-defense": "75",
@@ -910,7 +910,7 @@
     {
       "id": "050",
       "name": "Diglett",
-      "img": "./assets/050.png",
+      "img": "./assets/pokemon/050.png",
       "stats": {
         "speed": "95",
         "special-defense": "45",
@@ -928,7 +928,7 @@
     {
       "id": "051",
       "name": "Dugtrio",
-      "img": "./assets/051.png",
+      "img": "./assets/pokemon/051.png",
       "stats": {
         "speed": "120",
         "special-defense": "70",
@@ -946,7 +946,7 @@
     {
       "id": "052",
       "name": "Meowth",
-      "img": "./assets/052.png",
+      "img": "./assets/pokemon/052.png",
       "stats": {
         "speed": "90",
         "special-defense": "40",
@@ -964,7 +964,7 @@
     {
       "id": "053",
       "name": "Persian",
-      "img": "./assets/053.png",
+      "img": "./assets/pokemon/053.png",
       "stats": {
         "speed": "115",
         "special-defense": "65",
@@ -982,7 +982,7 @@
     {
       "id": "054",
       "name": "Psyduck",
-      "img": "./assets/054.png",
+      "img": "./assets/pokemon/054.png",
       "stats": {
         "speed": "55",
         "special-defense": "50",
@@ -1000,7 +1000,7 @@
     {
       "id": "055",
       "name": "Golduck",
-      "img": "./assets/055.png",
+      "img": "./assets/pokemon/055.png",
       "stats": {
         "speed": "85",
         "special-defense": "80",
@@ -1018,7 +1018,7 @@
     {
       "id": "056",
       "name": "Mankey",
-      "img": "./assets/056.png",
+      "img": "./assets/pokemon/056.png",
       "stats": {
         "speed": "70",
         "special-defense": "45",
@@ -1036,7 +1036,7 @@
     {
       "id": "057",
       "name": "Primeape",
-      "img": "./assets/057.png",
+      "img": "./assets/pokemon/057.png",
       "stats": {
         "speed": "95",
         "special-defense": "70",
@@ -1054,7 +1054,7 @@
     {
       "id": "058",
       "name": "Growlithe",
-      "img": "./assets/058.png",
+      "img": "./assets/pokemon/058.png",
       "stats": {
         "speed": "60",
         "special-defense": "50",
@@ -1072,7 +1072,7 @@
     {
       "id": "059",
       "name": "Arcanine",
-      "img": "./assets/059.png",
+      "img": "./assets/pokemon/059.png",
       "stats": {
         "speed": "95",
         "special-defense": "80",
@@ -1090,7 +1090,7 @@
     {
       "id": "060",
       "name": "Poliwag",
-      "img": "./assets/060.png",
+      "img": "./assets/pokemon/060.png",
       "stats": {
         "speed": "90",
         "special-defense": "40",
@@ -1108,7 +1108,7 @@
     {
       "id": "061",
       "name": "Poliwhirl",
-      "img": "./assets/061.png",
+      "img": "./assets/pokemon/061.png",
       "stats": {
         "speed": "90",
         "special-defense": "50",
@@ -1126,7 +1126,7 @@
     {
       "id": "062",
       "name": "Poliwrath",
-      "img": "./assets/062.png",
+      "img": "./assets/pokemon/062.png",
       "stats": {
         "speed": "70",
         "special-defense": "90",
@@ -1145,7 +1145,7 @@
     {
       "id": "063",
       "name": "Abra",
-      "img": "./assets/063.png",
+      "img": "./assets/pokemon/063.png",
       "stats": {
         "speed": "90",
         "special-defense": "55",
@@ -1163,7 +1163,7 @@
     {
       "id": "064",
       "name": "Kadabra",
-      "img": "./assets/064.png",
+      "img": "./assets/pokemon/064.png",
       "stats": {
         "speed": "105",
         "special-defense": "70",
@@ -1181,7 +1181,7 @@
     {
       "id": "065",
       "name": "Alakazam",
-      "img": "./assets/065.png",
+      "img": "./assets/pokemon/065.png",
       "stats": {
         "speed": "120",
         "special-defense": "95",
@@ -1199,7 +1199,7 @@
     {
       "id": "066",
       "name": "Machop",
-      "img": "./assets/066.png",
+      "img": "./assets/pokemon/066.png",
       "stats": {
         "speed": "35",
         "special-defense": "35",
@@ -1217,7 +1217,7 @@
     {
       "id": "067",
       "name": "Machoke",
-      "img": "./assets/067.png",
+      "img": "./assets/pokemon/067.png",
       "stats": {
         "speed": "45",
         "special-defense": "60",
@@ -1235,7 +1235,7 @@
     {
       "id": "068",
       "name": "Machamp",
-      "img": "./assets/068.png",
+      "img": "./assets/pokemon/068.png",
       "stats": {
         "speed": "55",
         "special-defense": "85",
@@ -1253,7 +1253,7 @@
     {
       "id": "069",
       "name": "Bellsprout",
-      "img": "./assets/069.png",
+      "img": "./assets/pokemon/069.png",
       "stats": {
         "speed": "40",
         "special-defense": "30",
@@ -1272,7 +1272,7 @@
     {
       "id": "070",
       "name": "Weepinbell",
-      "img": "./assets/070.png",
+      "img": "./assets/pokemon/070.png",
       "stats": {
         "speed": "55",
         "special-defense": "45",
@@ -1291,7 +1291,7 @@
     {
       "id": "071",
       "name": "Victreebel",
-      "img": "./assets/071.png",
+      "img": "./assets/pokemon/071.png",
       "stats": {
         "speed": "70",
         "special-defense": "70",
@@ -1310,7 +1310,7 @@
     {
       "id": "072",
       "name": "Tentacool",
-      "img": "./assets/072.png",
+      "img": "./assets/pokemon/072.png",
       "stats": {
         "speed": "70",
         "special-defense": "100",
@@ -1329,7 +1329,7 @@
     {
       "id": "073",
       "name": "Tentacruel",
-      "img": "./assets/073.png",
+      "img": "./assets/pokemon/073.png",
       "stats": {
         "speed": "100",
         "special-defense": "120",
@@ -1348,7 +1348,7 @@
     {
       "id": "074",
       "name": "Geodude",
-      "img": "./assets/074.png",
+      "img": "./assets/pokemon/074.png",
       "stats": {
         "speed": "20",
         "special-defense": "30",
@@ -1367,7 +1367,7 @@
     {
       "id": "075",
       "name": "Graveler",
-      "img": "./assets/075.png",
+      "img": "./assets/pokemon/075.png",
       "stats": {
         "speed": "35",
         "special-defense": "45",
@@ -1386,7 +1386,7 @@
     {
       "id": "076",
       "name": "Golem",
-      "img": "./assets/076.png",
+      "img": "./assets/pokemon/076.png",
       "stats": {
         "speed": "45",
         "special-defense": "65",
@@ -1405,7 +1405,7 @@
     {
       "id": "077",
       "name": "Ponyta",
-      "img": "./assets/077.png",
+      "img": "./assets/pokemon/077.png",
       "stats": {
         "speed": "90",
         "special-defense": "65",
@@ -1423,7 +1423,7 @@
     {
       "id": "078",
       "name": "Rapidash",
-      "img": "./assets/078.png",
+      "img": "./assets/pokemon/078.png",
       "stats": {
         "speed": "105",
         "special-defense": "80",
@@ -1441,7 +1441,7 @@
     {
       "id": "079",
       "name": "Slowpoke",
-      "img": "./assets/079.png",
+      "img": "./assets/pokemon/079.png",
       "stats": {
         "speed": "15",
         "special-defense": "40",
@@ -1460,7 +1460,7 @@
     {
       "id": "080",
       "name": "Slowbro",
-      "img": "./assets/080.png",
+      "img": "./assets/pokemon/080.png",
       "stats": {
         "speed": "30",
         "special-defense": "80",
@@ -1479,7 +1479,7 @@
     {
       "id": "081",
       "name": "Magnemite",
-      "img": "./assets/081.png",
+      "img": "./assets/pokemon/081.png",
       "stats": {
         "speed": "45",
         "special-defense": "55",
@@ -1498,7 +1498,7 @@
     {
       "id": "082",
       "name": "Magneton",
-      "img": "./assets/082.png",
+      "img": "./assets/pokemon/082.png",
       "stats": {
         "speed": "70",
         "special-defense": "70",
@@ -1517,7 +1517,7 @@
     {
       "id": "083",
       "name": "Farfetchd",
-      "img": "./assets/083.png",
+      "img": "./assets/pokemon/083.png",
       "stats": {
         "speed": "60",
         "special-defense": "62",
@@ -1536,7 +1536,7 @@
     {
       "id": "084",
       "name": "Doduo",
-      "img": "./assets/084.png",
+      "img": "./assets/pokemon/084.png",
       "stats": {
         "speed": "75",
         "special-defense": "35",
@@ -1555,7 +1555,7 @@
     {
       "id": "085",
       "name": "Dodrio",
-      "img": "./assets/085.png",
+      "img": "./assets/pokemon/085.png",
       "stats": {
         "speed": "110",
         "special-defense": "60",
@@ -1574,7 +1574,7 @@
     {
       "id": "086",
       "name": "Seel",
-      "img": "./assets/086.png",
+      "img": "./assets/pokemon/086.png",
       "stats": {
         "speed": "45",
         "special-defense": "70",
@@ -1592,7 +1592,7 @@
     {
       "id": "087",
       "name": "Dewgong",
-      "img": "./assets/087.png",
+      "img": "./assets/pokemon/087.png",
       "stats": {
         "speed": "70",
         "special-defense": "95",
@@ -1611,7 +1611,7 @@
     {
       "id": "088",
       "name": "Grimer",
-      "img": "./assets/088.png",
+      "img": "./assets/pokemon/088.png",
       "stats": {
         "speed": "25",
         "special-defense": "50",
@@ -1629,7 +1629,7 @@
     {
       "id": "089",
       "name": "Muk",
-      "img": "./assets/089.png",
+      "img": "./assets/pokemon/089.png",
       "stats": {
         "speed": "50",
         "special-defense": "100",
@@ -1647,7 +1647,7 @@
     {
       "id": "090",
       "name": "Shellder",
-      "img": "./assets/090.png",
+      "img": "./assets/pokemon/090.png",
       "stats": {
         "speed": "40",
         "special-defense": "25",
@@ -1665,7 +1665,7 @@
     {
       "id": "091",
       "name": "Cloyster",
-      "img": "./assets/091.png",
+      "img": "./assets/pokemon/091.png",
       "stats": {
         "speed": "70",
         "special-defense": "45",
@@ -1684,7 +1684,7 @@
     {
       "id": "092",
       "name": "Gastly",
-      "img": "./assets/092.png",
+      "img": "./assets/pokemon/092.png",
       "stats": {
         "speed": "80",
         "special-defense": "35",
@@ -1703,7 +1703,7 @@
     {
       "id": "093",
       "name": "Haunter",
-      "img": "./assets/093.png",
+      "img": "./assets/pokemon/093.png",
       "stats": {
         "speed": "95",
         "special-defense": "55",
@@ -1722,7 +1722,7 @@
     {
       "id": "094",
       "name": "Gengar",
-      "img": "./assets/094.png",
+      "img": "./assets/pokemon/094.png",
       "stats": {
         "speed": "110",
         "special-defense": "75",
@@ -1741,7 +1741,7 @@
     {
       "id": "095",
       "name": "Onix",
-      "img": "./assets/095.png",
+      "img": "./assets/pokemon/095.png",
       "stats": {
         "speed": "70",
         "special-defense": "45",
@@ -1760,7 +1760,7 @@
     {
       "id": "096",
       "name": "Drowzee",
-      "img": "./assets/096.png",
+      "img": "./assets/pokemon/096.png",
       "stats": {
         "speed": "42",
         "special-defense": "90",
@@ -1778,7 +1778,7 @@
     {
       "id": "097",
       "name": "Hypno",
-      "img": "./assets/097.png",
+      "img": "./assets/pokemon/097.png",
       "stats": {
         "speed": "67",
         "special-defense": "115",
@@ -1796,7 +1796,7 @@
     {
       "id": "098",
       "name": "Krabby",
-      "img": "./assets/098.png",
+      "img": "./assets/pokemon/098.png",
       "stats": {
         "speed": "50",
         "special-defense": "25",
@@ -1814,7 +1814,7 @@
     {
       "id": "099",
       "name": "Kingler",
-      "img": "./assets/099.png",
+      "img": "./assets/pokemon/099.png",
       "stats": {
         "speed": "75",
         "special-defense": "50",
@@ -1832,7 +1832,7 @@
     {
       "id": "100",
       "name": "Voltorb",
-      "img": "./assets/100.png",
+      "img": "./assets/pokemon/100.png",
       "stats": {
         "speed": "100",
         "special-defense": "55",
@@ -1850,7 +1850,7 @@
     {
       "id": "101",
       "name": "Electrode",
-      "img": "./assets/101.png",
+      "img": "./assets/pokemon/101.png",
       "stats": {
         "speed": "150",
         "special-defense": "80",
@@ -1868,7 +1868,7 @@
     {
       "id": "102",
       "name": "Exeggcute",
-      "img": "./assets/102.png",
+      "img": "./assets/pokemon/102.png",
       "stats": {
         "speed": "40",
         "special-defense": "45",
@@ -1887,7 +1887,7 @@
     {
       "id": "103",
       "name": "Exeggutor",
-      "img": "./assets/103.png",
+      "img": "./assets/pokemon/103.png",
       "stats": {
         "speed": "55",
         "special-defense": "75",
@@ -1906,7 +1906,7 @@
     {
       "id": "104",
       "name": "Cubone",
-      "img": "./assets/104.png",
+      "img": "./assets/pokemon/104.png",
       "stats": {
         "speed": "35",
         "special-defense": "50",
@@ -1924,7 +1924,7 @@
     {
       "id": "105",
       "name": "Marowak",
-      "img": "./assets/105.png",
+      "img": "./assets/pokemon/105.png",
       "stats": {
         "speed": "45",
         "special-defense": "80",
@@ -1942,7 +1942,7 @@
     {
       "id": "106",
       "name": "Hitmonlee",
-      "img": "./assets/106.png",
+      "img": "./assets/pokemon/106.png",
       "stats": {
         "speed": "87",
         "special-defense": "110",
@@ -1960,7 +1960,7 @@
     {
       "id": "107",
       "name": "Hitmonchan",
-      "img": "./assets/107.png",
+      "img": "./assets/pokemon/107.png",
       "stats": {
         "speed": "76",
         "special-defense": "110",
@@ -1978,7 +1978,7 @@
     {
       "id": "108",
       "name": "Lickitung",
-      "img": "./assets/108.png",
+      "img": "./assets/pokemon/108.png",
       "stats": {
         "speed": "30",
         "special-defense": "75",
@@ -1996,7 +1996,7 @@
     {
       "id": "109",
       "name": "Koffing",
-      "img": "./assets/109.png",
+      "img": "./assets/pokemon/109.png",
       "stats": {
         "speed": "35",
         "special-defense": "45",
@@ -2014,7 +2014,7 @@
     {
       "id": "110",
       "name": "Weezing",
-      "img": "./assets/110.png",
+      "img": "./assets/pokemon/110.png",
       "stats": {
         "speed": "60",
         "special-defense": "70",
@@ -2032,7 +2032,7 @@
     {
       "id": "111",
       "name": "Rhyhorn",
-      "img": "./assets/111.png",
+      "img": "./assets/pokemon/111.png",
       "stats": {
         "speed": "25",
         "special-defense": "30",
@@ -2051,7 +2051,7 @@
     {
       "id": "112",
       "name": "Rhydon",
-      "img": "./assets/112.png",
+      "img": "./assets/pokemon/112.png",
       "stats": {
         "speed": "40",
         "special-defense": "45",
@@ -2070,7 +2070,7 @@
     {
       "id": "113",
       "name": "Chansey",
-      "img": "./assets/113.png",
+      "img": "./assets/pokemon/113.png",
       "stats": {
         "speed": "50",
         "special-defense": "105",
@@ -2088,7 +2088,7 @@
     {
       "id": "114",
       "name": "Tangela",
-      "img": "./assets/114.png",
+      "img": "./assets/pokemon/114.png",
       "stats": {
         "speed": "60",
         "special-defense": "40",
@@ -2106,7 +2106,7 @@
     {
       "id": "115",
       "name": "Kangaskhan",
-      "img": "./assets/115.png",
+      "img": "./assets/pokemon/115.png",
       "stats": {
         "speed": "90",
         "special-defense": "80",
@@ -2124,7 +2124,7 @@
     {
       "id": "116",
       "name": "Horsea",
-      "img": "./assets/116.png",
+      "img": "./assets/pokemon/116.png",
       "stats": {
         "speed": "60",
         "special-defense": "25",
@@ -2142,7 +2142,7 @@
     {
       "id": "117",
       "name": "Seadra",
-      "img": "./assets/117.png",
+      "img": "./assets/pokemon/117.png",
       "stats": {
         "speed": "85",
         "special-defense": "45",
@@ -2160,7 +2160,7 @@
     {
       "id": "118",
       "name": "Goldeen",
-      "img": "./assets/118.png",
+      "img": "./assets/pokemon/118.png",
       "stats": {
         "speed": "63",
         "special-defense": "50",
@@ -2178,7 +2178,7 @@
     {
       "id": "119",
       "name": "Seaking",
-      "img": "./assets/119.png",
+      "img": "./assets/pokemon/119.png",
       "stats": {
         "speed": "68",
         "special-defense": "80",
@@ -2196,7 +2196,7 @@
     {
       "id": "120",
       "name": "Staryu",
-      "img": "./assets/120.png",
+      "img": "./assets/pokemon/120.png",
       "stats": {
         "speed": "85",
         "special-defense": "55",
@@ -2214,7 +2214,7 @@
     {
       "id": "121",
       "name": "Starmie",
-      "img": "./assets/121.png",
+      "img": "./assets/pokemon/121.png",
       "stats": {
         "speed": "115",
         "special-defense": "85",
@@ -2233,7 +2233,7 @@
     {
       "id": "122",
       "name": "Mr-mime",
-      "img": "./assets/122.png",
+      "img": "./assets/pokemon/122.png",
       "stats": {
         "speed": "90",
         "special-defense": "120",
@@ -2252,7 +2252,7 @@
     {
       "id": "123",
       "name": "Scyther",
-      "img": "./assets/123.png",
+      "img": "./assets/pokemon/123.png",
       "stats": {
         "speed": "105",
         "special-defense": "80",
@@ -2271,7 +2271,7 @@
     {
       "id": "124",
       "name": "Jynx",
-      "img": "./assets/124.png",
+      "img": "./assets/pokemon/124.png",
       "stats": {
         "speed": "95",
         "special-defense": "95",
@@ -2290,7 +2290,7 @@
     {
       "id": "125",
       "name": "Electabuzz",
-      "img": "./assets/125.png",
+      "img": "./assets/pokemon/125.png",
       "stats": {
         "speed": "105",
         "special-defense": "85",
@@ -2308,7 +2308,7 @@
     {
       "id": "126",
       "name": "Magmar",
-      "img": "./assets/126.png",
+      "img": "./assets/pokemon/126.png",
       "stats": {
         "speed": "93",
         "special-defense": "85",
@@ -2326,7 +2326,7 @@
     {
       "id": "127",
       "name": "Pinsir",
-      "img": "./assets/127.png",
+      "img": "./assets/pokemon/127.png",
       "stats": {
         "speed": "85",
         "special-defense": "70",
@@ -2344,7 +2344,7 @@
     {
       "id": "128",
       "name": "Tauros",
-      "img": "./assets/128.png",
+      "img": "./assets/pokemon/128.png",
       "stats": {
         "speed": "110",
         "special-defense": "70",
@@ -2362,7 +2362,7 @@
     {
       "id": "129",
       "name": "Magikarp",
-      "img": "./assets/129.png",
+      "img": "./assets/pokemon/129.png",
       "stats": {
         "speed": "80",
         "special-defense": "20",
@@ -2380,7 +2380,7 @@
     {
       "id": "130",
       "name": "Gyarados",
-      "img": "./assets/130.png",
+      "img": "./assets/pokemon/130.png",
       "stats": {
         "speed": "81",
         "special-defense": "100",
@@ -2399,7 +2399,7 @@
     {
       "id": "131",
       "name": "Lapras",
-      "img": "./assets/131.png",
+      "img": "./assets/pokemon/131.png",
       "stats": {
         "speed": "60",
         "special-defense": "95",
@@ -2418,7 +2418,7 @@
     {
       "id": "132",
       "name": "Ditto",
-      "img": "./assets/132.png",
+      "img": "./assets/pokemon/132.png",
       "stats": {
         "speed": "48",
         "special-defense": "48",
@@ -2436,7 +2436,7 @@
     {
       "id": "133",
       "name": "Eevee",
-      "img": "./assets/133.png",
+      "img": "./assets/pokemon/133.png",
       "stats": {
         "speed": "55",
         "special-defense": "65",
@@ -2454,7 +2454,7 @@
     {
       "id": "134",
       "name": "Vaporeon",
-      "img": "./assets/134.png",
+      "img": "./assets/pokemon/134.png",
       "stats": {
         "speed": "65",
         "special-defense": "95",
@@ -2472,7 +2472,7 @@
     {
       "id": "135",
       "name": "Jolteon",
-      "img": "./assets/135.png",
+      "img": "./assets/pokemon/135.png",
       "stats": {
         "speed": "130",
         "special-defense": "95",
@@ -2490,7 +2490,7 @@
     {
       "id": "136",
       "name": "Flareon",
-      "img": "./assets/136.png",
+      "img": "./assets/pokemon/136.png",
       "stats": {
         "speed": "65",
         "special-defense": "110",
@@ -2508,7 +2508,7 @@
     {
       "id": "137",
       "name": "Porygon",
-      "img": "./assets/137.png",
+      "img": "./assets/pokemon/137.png",
       "stats": {
         "speed": "40",
         "special-defense": "75",
@@ -2526,7 +2526,7 @@
     {
       "id": "138",
       "name": "Omanyte",
-      "img": "./assets/138.png",
+      "img": "./assets/pokemon/138.png",
       "stats": {
         "speed": "35",
         "special-defense": "55",
@@ -2545,7 +2545,7 @@
     {
       "id": "139",
       "name": "Omastar",
-      "img": "./assets/139.png",
+      "img": "./assets/pokemon/139.png",
       "stats": {
         "speed": "55",
         "special-defense": "70",
@@ -2564,7 +2564,7 @@
     {
       "id": "140",
       "name": "Kabuto",
-      "img": "./assets/140.png",
+      "img": "./assets/pokemon/140.png",
       "stats": {
         "speed": "55",
         "special-defense": "45",
@@ -2583,7 +2583,7 @@
     {
       "id": "141",
       "name": "Kabutops",
-      "img": "./assets/141.png",
+      "img": "./assets/pokemon/141.png",
       "stats": {
         "speed": "80",
         "special-defense": "70",
@@ -2602,7 +2602,7 @@
     {
       "id": "142",
       "name": "Aerodactyl",
-      "img": "./assets/142.png",
+      "img": "./assets/pokemon/142.png",
       "stats": {
         "speed": "130",
         "special-defense": "75",
@@ -2621,7 +2621,7 @@
     {
       "id": "143",
       "name": "Snorlax",
-      "img": "./assets/143.png",
+      "img": "./assets/pokemon/143.png",
       "stats": {
         "speed": "30",
         "special-defense": "110",
@@ -2639,7 +2639,7 @@
     {
       "id": "144",
       "name": "Articuno",
-      "img": "./assets/144.png",
+      "img": "./assets/pokemon/144.png",
       "stats": {
         "speed": "85",
         "special-defense": "125",
@@ -2658,7 +2658,7 @@
     {
       "id": "145",
       "name": "Zapdos",
-      "img": "./assets/145.png",
+      "img": "./assets/pokemon/145.png",
       "stats": {
         "speed": "100",
         "special-defense": "90",
@@ -2677,7 +2677,7 @@
     {
       "id": "146",
       "name": "Moltres",
-      "img": "./assets/146.png",
+      "img": "./assets/pokemon/146.png",
       "stats": {
         "speed": "90",
         "special-defense": "85",
@@ -2696,7 +2696,7 @@
     {
       "id": "147",
       "name": "Dratini",
-      "img": "./assets/147.png",
+      "img": "./assets/pokemon/147.png",
       "stats": {
         "speed": "50",
         "special-defense": "50",
@@ -2714,7 +2714,7 @@
     {
       "id": "148",
       "name": "Dragonair",
-      "img": "./assets/148.png",
+      "img": "./assets/pokemon/148.png",
       "stats": {
         "speed": "70",
         "special-defense": "70",
@@ -2732,7 +2732,7 @@
     {
       "id": "149",
       "name": "Dragonite",
-      "img": "./assets/149.png",
+      "img": "./assets/pokemon/149.png",
       "stats": {
         "speed": "80",
         "special-defense": "100",
@@ -2751,7 +2751,7 @@
     {
       "id": "150",
       "name": "Mewtwo",
-      "img": "./assets/150.png",
+      "img": "./assets/pokemon/150.png",
       "stats": {
         "speed": "130",
         "special-defense": "90",
@@ -2769,7 +2769,7 @@
     {
       "id": "151",
       "name": "Mew",
-      "img": "./assets/151.png",
+      "img": "./assets/pokemon/151.png",
       "stats": {
         "speed": "100",
         "special-defense": "100",
