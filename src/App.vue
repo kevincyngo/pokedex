@@ -82,12 +82,12 @@ body {
 #card {
   margin: 40px;
   width: calc(100% * (1 / 3) - 80px - 1px);
-  background-color:grey;
 }
 
 button {
   width: 100%;
   margin: 0;
-  background: #cfc8bb;
+ background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(180,204,209,1) 62%); 
 }
 </style>

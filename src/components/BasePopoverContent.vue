@@ -2,12 +2,13 @@
   <div class="vue-tour-popover-content" ref="PopoverContent" tabindex="-1">
     <div class="vue-tour-popover-content__header">
       <p>
-        <span v-for="type in pokemon.type" :key="type">
-          <img :src="getTypeImg(type)">  
+        <span class="type" v-for="type in pokemon.type" :key="type">
+          <!-- <img :src="getTypeImg(type)">   -->
+          {{type}}
         </span> {{ pokemon.name }} the {{pokemon.genus}}
       </p>
     </div>
-    <div class="img">
+    <div class="vue-tour-popover-content__img">
       <img class="popover-img" :src="pokemon.img" />
     </div>
     <div class="flavor-text">
@@ -84,7 +85,8 @@ export default {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 400px;
+  width: 350px;
+  height: 100%;
   background-color: azure;
   padding: 15px;
   border-radius: 10px;
@@ -94,29 +96,27 @@ export default {
     font-size: 20px;
     text-align: left;
   }
+
+  &__img {
+      border: solid 1px black;
+  background-color: grey;
+  border-radius: 10px;
+  width:100%;
+  }
 }
 
 .popover-img {
-  width: 100%;
-  height: 100%;
-  padding:10px;
+  width:250px;
+  height:250px;
+  padding: 10px;
 }
 
 .pokemon-stats {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 90px 90px 90px;
   grid-gap:20px 20px;
 }
 
-img {
-  border: solid 1px black;
-  background-color: grey;
-  border-radius: 10px;
-}
-
-.flavor-text {
-  padding-top: 5px;
-}
 
 .stat {
   padding: 5px;
@@ -124,7 +124,9 @@ img {
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,209,127,1) 0%, rgba(113,252,252,1) 100%);
   border-radius: 10px;
 }
-* {
-  align-items: center;
+
+.type {
+  font-size: 10px;
 }
+
 </style>
