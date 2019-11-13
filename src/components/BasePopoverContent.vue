@@ -2,9 +2,9 @@
   <div class="vue-tour-popover-content" ref="PopoverContent" tabindex="-1">
     <div class="vue-tour-popover-content__header">
       <p>
-        <span class="type" v-for="type in pokemon.type" :key="type">
+        <span class="type" v-for="type in types" :key="type">
           <!-- <img :src="getTypeImg(type)">   -->
-          {{type}}
+          <img :src="type">
         </span> {{ pokemon.name }} the {{pokemon.genus}}
       </p>
     </div>
@@ -41,7 +41,8 @@ export default {
       defense: "",
       attack: "",
       sp_attack: "",
-      sp_defense: ""
+      sp_defense: "",
+      types: []
     };
   },
   props: ["pokemon"],
@@ -61,6 +62,11 @@ export default {
       } else if (stat == SP_DEFENSE) {
         this.sp_defense = stats[stat];
       }
+    }
+    var types = this.pokemon.type;
+    // console.log(types);
+    for (var type of types) {
+      this.types.push("./assets/types/"+ type.toLowerCase()+".png");
     }
   },
   methods: {
@@ -126,7 +132,9 @@ export default {
 }
 
 .type {
-  font-size: 10px;
+  padding-right: 5px;
 }
+
+
 
 </style>
